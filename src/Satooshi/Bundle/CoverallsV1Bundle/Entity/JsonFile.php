@@ -316,7 +316,7 @@ class JsonFile extends Coveralls
      */
     protected function requireServiceJobId()
     {
-        return isset($this->serviceName) && isset($this->serviceJobId) && !isset($this->repoToken);
+        return isset($this->serviceName) && isset($this->serviceJobId) && isset($this->repoToken);
     }
 
     /**
